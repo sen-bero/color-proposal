@@ -8,7 +8,7 @@ import Sample from "./Sample/Sample";
 
 const App = () => {
   return (
-    <BrowserRouter basename='/color_proposal'>
+    <BrowserRouter basename='/color-proposal'>
       <Routes>
         <Route path={`*`} element={<NotFound />} />
         <Route path={`/`} element={<Top />} />
