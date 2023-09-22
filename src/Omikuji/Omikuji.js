@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 import styles from "./Omikuji.module.css";
 
 const Omikuji = () => {
-
-  
-  
   
   // RGBについて、それぞれ 0 ~ 256 の値をランダムで設定する
   const randomR = getRandomColor( 0, 255 );
