@@ -37,8 +37,6 @@ const Omikuji = () => {
         <div className={styles["contents"]}>
           <button onClick={() => window.location.reload()} className={styles["refresh-btn"]}><span id="refresh-icon" class="material-icons">refresh</span></button>
           <h1 id="color-code-color" className={styles["color-code"]}> #{ randomColor } </h1>
-          {/* 下のアイコンは id名 が重複するためスタイル反映されない */}
-          <button onClick={() => window.location.reload()} className={styles["refresh-btn"]}><span id="refresh-icon" class="material-icons">refresh</span></button>
         </div>
         <Link to={`/`} className={styles["nav-btn"]}>Topに戻る</Link>
       </div>
