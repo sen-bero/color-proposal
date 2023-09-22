@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://yakuzen.github.io/color-proposal/",
+  "homepage": "https://sen-bero.github.io/color-proposal/",
   "eslintConfig": {
     "extends": [
       "react-app",
