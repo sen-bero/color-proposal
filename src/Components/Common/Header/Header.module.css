@@ -1,0 +1,30 @@
+.header{
+    margin: 0;
+    position: fixed;
+    width: 85vw;
+    height: 7.5vh;
+    padding: 0 7.5vw;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+}
+.header h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vw;
+    width: 15vw;
+}
+.header a:hover{
+    text-shadow: 1px 1px 1px rgba(150,150,150,.5);
+}
+
+
+.header-nav{
+    width: 40vw;
+    padding-left: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.header-nav h3{
+    font-size: 1.5vw;
+}

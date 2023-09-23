@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.color-code{
+    margin-right: 5vw;
+    align-self: center;
+}
+
+.color-box{
+    width: 4vw;
+    height: 4vw;
+}
+
+.red-btn{
+    margin: 5vh 2.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ff5555;
+}
+
+.green-btn{
+    margin: 5vh 2.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #55ff55;
+}
+
+.blue-btn{
+    margin: 5vh 2.5vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #5555ff;
+}

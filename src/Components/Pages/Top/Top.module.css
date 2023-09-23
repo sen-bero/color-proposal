@@ -3,14 +3,15 @@
 /* 例えば、#topに対してのスタイル指定をjsの関数内で動的に指定する場合、module.css内での#topに対するスタイル指定は適応されない */
 
 .top{
+    position: fixed;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #caeb8c; */
     background-color: #222222;
+    z-index: -5;
 }
 
 .center{
@@ -19,7 +20,10 @@
     left: 32.5vw;
     width: 35vw;
     height: 35vw;
-    /* border: 3px solid #ffffff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color: #ffffee;
     z-index: 1;
@@ -31,12 +35,9 @@
     left: -15vw;
     width: 30vw;
     height: 30vw;
-    /* border: 2px solid #000000; */
     border-radius: 50%;
-    /* background-color: #115fb8; */
     background-color: #209bda;
 }
-
 
 .top-right{
     position: fixed;
@@ -44,7 +45,6 @@
     right: -15vw;
     width: 30vw;
     height: 30vw;
-    /* border: 2px solid #000000; */
     border-radius: 50%;
     background-color: #efd819;
 }
@@ -55,7 +55,6 @@
     left: -15vw;
     width: 30vw;
     height: 30vw;
-    /* border: 2px solid #000000; */
     border-radius: 50%;
     background-color: #ef6b4b;
 }
@@ -66,11 +65,9 @@
     right: -15vw;
     width: 30vw;
     height: 30vw;
-    /* border: 2px solid #000000; */
     border-radius: 50%;
     background-color: #1eca21;
 }
-
 
 .center-left{
     position: fixed;
@@ -78,7 +75,6 @@
     left: 17.5vw;
     width: 12.5vw;
     height: 12.5vw;
-    /* border: 2px solid #000000; */
     border-radius: 50%;
     background-color: #77d5af;
 }
@@ -89,7 +85,6 @@
     right: 17.5vw;
     width: 12.5vw;
     height: 12.5vw;
-    /* border: 2px solid #000000; */
     border-radius: 50%;
     background-color: #c352bc;
 }
@@ -103,7 +98,7 @@
 }
 
 nav{
-    margin-top: 5vh;
+    margin-top: 3vh;
     width: 25vw;
     display: flex;
     align-items: center;
