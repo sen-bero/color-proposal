@@ -1,10 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NotFound from "./NotFound/NotFound";
-import Top from "./Top/Top";
-import Question from "./Question/Question";
-import Omikuji from "./Omikuji/Omikuji";
-import Sample from "./Sample/Sample";
-
+import { Top, Question, Omikuji, Palette, NotFound } from "./Components/index.js";
 
 const App = () => {
   return (
@@ -14,7 +9,7 @@ const App = () => {
         <Route path={`/`} element={<Top />} />
         <Route path={`/question/`} element={<Question />} />
         <Route path={`/omikuji/`} element={<Omikuji />} />
-        <Route path={`/sample/`} element={<Sample />} />
+        <Route path={`/palette/`} element={<Palette />} />
       </Routes>
     </BrowserRouter>
   );

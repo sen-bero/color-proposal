@@ -8,18 +8,12 @@
     background-color: #2f4f74;
 }
 
-.title{
-    color: #ffffee;
-}
-
 .question{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     color: #ffffee;
     margin: 5vh 0;
-    /* padding: 1vh 1vw; */
-    width: 46vw;
+    width: 45vw;
     font-size: 18px;
     border-bottom: 2px solid #ffffee;
 }
@@ -29,9 +23,11 @@
 }
 
 .choices{
-    /* margin-top: 2.5vh; */
     margin-right: 2vw;
     width: 20vw;
     display: flex;
     justify-content: space-between;
+}
+.choices input{
+    margin-right: .5vw;
 }
